@@ -30,7 +30,8 @@ const ContactMe = () => {
   return (
     <div>
       <p>
-      How to contact 
+        <br></br>
+      I'd love to chat! You can <a href="mailto:paula@gmail.com" target="_top"> email me</a>, <a href="https://twitter.com/paulatulis" target="_blank"> tweet</a> at me, connect with me on <a href="https://www.linkedin.com/in/paulatulis/" target="_blank">LinkedIn</a>, send a carrier pigeon, etc.
       </p>
     </div>
   )

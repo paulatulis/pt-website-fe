@@ -9,18 +9,23 @@ import { rhythm, scale } from "../utils/typography"
 class Layout extends React.Component {
 
   render() {
+    
     const ListLink = props => (
-      <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+      
+      <li style={{ display: `inline-block`, marginRight: `1rem`, color: '#5BBBE8' }}>
         <Link to={props.to}>{props.children}</Link>
       </li>
     )
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
+    const background = "https://live.staticflickr.com/65535/48602352402_4bcaf8978a_o.jpg"
+    // <a data-flickr-embed="true"  href="https://www.flickr.com/photos/183733073@N06/48602352402/in/dateposted-public/" title="atmosphere"><img src="https://live.staticflickr.com/65535/48602352402_4bcaf8978a_o.jpg" width="5990" height="1242" alt="atmosphere"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
     let header
     let navbar
 
 
     if (location.pathname === rootPath) {
+      
       header = (
         <h1
           style={{
@@ -64,6 +69,16 @@ class Layout extends React.Component {
       )
     }
     return (
+      <div className="" 
+      ><img style={{
+        
+          // maxWidth: rhythm(80),
+          maxHeight: rhythm(80),
+          padding: `${rhythm(0.5)} ${rhythm(0.5)}`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'auto',
+        
+      }} alt="clouds" src={background}/>
       <div
         style={{
           marginLeft: `auto`,
@@ -72,26 +87,16 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <div
-        style={{
-          // marginLeft: ``,
-          // marginRight: ``,
-          // maxWidth: rhythm(50),
-          // padding: `${rhythm(0)}`,
-        }}
-      >
-        <ListLink to="/">Home</ListLink>
+        <div >
+        <ListLink style={{ color: '#5BBBE8'}} to="/">Home</ListLink>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
       </div>
 
         <header>{header}</header>
+
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+      </div>
       </div>
     )
   }

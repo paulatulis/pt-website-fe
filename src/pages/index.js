@@ -14,8 +14,8 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
     
     return (
+      <>
       <Layout location={this.props.location} title={siteTitle}>
-        
         <SEO title="All posts" />
         <Bio />
         {posts.map(({ node }) => {
@@ -28,7 +28,7 @@ class BlogIndex extends React.Component {
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <Link style={{ boxShadow: `none`, color: '#5BBBE8' }} to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>
@@ -44,7 +44,14 @@ class BlogIndex extends React.Component {
             </article>
           )
         })}
+        {/* <div className="footer">
+      © {new Date().getFullYear()}, Built with
+      {` `}
+      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    </div> */}
       </Layout>
+      
+    </>
     )
   }
 }

@@ -18,7 +18,7 @@ class About extends React.Component {
     
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <img alt="ice cream cone" src={pticecream}/>
+        <img style={{display: `inline-block`}} alt="ice cream cone" src={pticecream}/>
        <AboutMe/>
       </Layout>
     )
