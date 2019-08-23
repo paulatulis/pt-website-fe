@@ -91,6 +91,7 @@ class Layout extends React.Component {
         <ListLink style={{ color: '#5BBBE8'}} to="/">Home</ListLink>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
+        <ListLink to="/portfolio/">Portfolio</ListLink>
       </div>
 
         <header>{header}</header>

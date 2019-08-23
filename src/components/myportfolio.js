@@ -4,9 +4,9 @@ import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
-const ContactMe = () => {
+const MyPortfolio = () => {
   const data = useStaticQuery(graphql`
-    query contactMeQuery {
+    query myPortfolioQuery {
       avatar: file(absolutePath: { regex: "/icecream.JPG/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
@@ -31,10 +31,10 @@ const ContactMe = () => {
     <div>
       <p>
         <br></br>
-      I'd love to chat! You can <a href="mailto:paula@gmail.com" target="_top"> email me</a>, <a href="https://twitter.com/paulatulis" target="_blank"> tweet</a> at me, view my code on <a href="https://github.com/paulatulis" target="_blank">GitHub</a>, connect with me on <a href="https://www.linkedin.com/in/paulatulis/" target="_blank">LinkedIn</a>, send a carrier pigeon, etc.
+      A better version of this page is coming soon! For now, you can check out one of my projects, Tribe, by clicking <a href="https://new-hire-app-frontend.firebaseapp.com">here</a>.
       </p>
     </div>
   )
 }
 
-export default ContactMe
+export default MyPortfolio

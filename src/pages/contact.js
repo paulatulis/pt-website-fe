@@ -17,11 +17,7 @@ class Contact extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
        <ContactMe />
-       <footer className="footer">
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+       
       </Layout>
       
     )
