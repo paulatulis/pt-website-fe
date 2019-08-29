@@ -12,10 +12,15 @@ class Contact extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
+    const phone = "https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
     
     
     return (
       <Layout location={this.props.location} title={siteTitle}>
+        <img style={{
+                display: 'flex',
+                alignItems: 'center'
+                }} alt="under construction" src={phone}/>
        <ContactMe />
        
       </Layout>

@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
     render() {
       const { data } = this.props
       const siteTitle = data.site.siteMetadata.title
-      const hardHat = "https://images.pexels.com/photos/1329061/pexels-photo-1329061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      const hardHat = "https://images.pexels.com/photos/1329061/pexels-photo-1329061.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
       
       
       return (
