@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `paula.toProgrammer() `,
-    author: `Paula Tulis`,
+    author: `Paula`,
     description: `Hello, you! I'm Paula and this is my blog/portfolio site. Welcome.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
@@ -27,6 +27,10 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-figure-caption`,
+            options: {figureClassName: 'md-figure'},
+          },
 
           {
             resolve: `gatsby-remark-prismjs`,

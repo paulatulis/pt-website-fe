@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import About from '../pages/about'
 
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale, Typography } from "../utils/typography"
 
 
 class Layout extends React.Component {
@@ -58,6 +58,7 @@ class Layout extends React.Component {
           <Link
             style={{
               boxShadow: `none`,
+              fontFamily: `Montserrat, sans-serif`,
               textDecoration: `none`,
               color: `inherit`,
             }}

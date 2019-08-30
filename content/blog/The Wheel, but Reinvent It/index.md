@@ -10,18 +10,18 @@ One of the skills I sharpened during my time in coding boot camp was the art of 
   <img width="460" height="300" src="./googler.png">
 </p>
 
-Throughout the curriculum at Flatiron School, my cohort would be given labs that would ask us to do things like find the most commonly used character in a string, or make a string into the Pig Latin version of itself or even manually recreate the reduce function (the worst!). It would at first appear to be a perfect opportunity to use our new search term prowess. Except it was not. We needed to accomplish these challenges without using the built-in tools. 
+Throughout the curriculum at Flatiron School, my cohort would be given labs that would ask us to do things like find the most commonly used character in a string, or make a string into the Pig Latin version of itself, or even manually recreate the reduce function (the worst!). It would at first appear to be a perfect opportunity to use our new search term prowess. Except it was not. We needed to accomplish these challenges without using the built-in tools. 
 
 I detested these exercises. 
 ## What’s the point of trying to start a fire with two twigs when you have a perfectly functioning lighter right next to you? 
 
-I quickly found out that the point is -- and this is where my analogy completely drops off, but I’m staying committed to it --  that interviewers will ask you to build fires with twigs and verbally communicate your inner thoughts while doing so. No lighters (Google) allowed. 
+I quickly found out that the point is -- and this is where my analogy completely drops off, but I’m staying committed to it --  that interviewers will ask you to build fires with twigs and verbally communicate your inner thoughts while doing so. No lighters allowed. 
 
 <p align="center">
   <img width="460" height="300" src="./fire.jpg">
 </p>
 
-Why is this? There are a few reasons: 
+Why is this? 
 
 **1. Engineers should be able to problem solve**
 
@@ -33,7 +33,7 @@ The point of an interview is to get a feel for how a candidate would perform as 
 
 **3. Seats need butts in them, and this is a scalable way to sort through a big pile o’ butts**
 
-Asking interviewees to solve algorithmic/logic questions is a speedy and scalable way to move them through the funnel. Interviewers can compare candidates’ answers efficiently, shift the specific question up or down a notch in terms of difficulty depending on how the interview is going, and most importantly, at the end of the day, it’s very easy to see if the solution to “reverse a string without using the built-in .reverse() function” works. There’s no grey area, no room for storytelling, and little to no need for debate over whether or not the problem was solved. 
+Asking interviewees to solve algorithmic/logic questions is a speedy and scalable way to move them through the funnel. Interviewers can compare candidates’ answers efficiently, shift the specific question up or down a notch in terms of difficulty depending on how the interview is going, and most importantly, it’s very easy to see if the solution to “reverse a string without using the built-in .reverse() function” works. There’s no grey area, no room for storytelling, and little to no need for debate over whether or not the problem was solved. 
 
 **4. Logic questions create an even playing field** 
 
@@ -41,14 +41,14 @@ Because they are background and programming language agnostic (most of the time)
 
 **5. It’s always been that way**
 
-This is the lamest reason in my opinion. A lot of things have “always been that way” and that doesn’t mean they are useful or superior or the most efficient. But we can worry about being the change we seek after we get the job.
-
-Knowing the information above, *especially reason numero cinco*, we can walk into interviews prepared, which will not only impress the person interviewing, but also get everyone to the more fun part of talking about additional creative approaches to these brainteasers.
-
+This is the weakest reason in my opinion. A lot of things have “always been that way” and that doesn’t mean they are useful or superior or the most efficient. But we can worry about being the change we seek after we get the job.
 <p align="center">
   <img width="460" height="300" src="./whiteboard.jpeg">
 </p>
 
+Knowing the information above, *especially reason numero cinco*, we can walk into interviews prepared, which will not only impress the interviewer, but will also get everyone to the more enjoyable part of talking about additional creative approaches to these problems.
+
+
 And here is the really good news: Google and built-in methods are not going away. They’ll just be waiting on the other side of that interviewing room. 
 
-If you’d like to actually see some different approaches in solving a few of these questions (in JavaScript), my next blog post will cover it. 
+If you’d like to actually see some different approaches in solving a few of these questions (in JavaScript), my next blog post will cover it. Check back next week!

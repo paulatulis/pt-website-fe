@@ -47,7 +47,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Hi! My name is <strong>{author}</strong>, and I'm a full stack web developer with an affinity for building meaningful things. You can read my blog posts below (there's only one right now, but watch this space!).  
+        Hi! My name is <strong>{author}</strong>, and I'm a full stack web developer with an affinity for building meaningful things.  
         {`  `}
         <a href={`https://twitter.com/${social.twitter}`}>
           I also write mediocre tweets.

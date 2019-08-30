@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import MyPortfolio from "../components/myportfolio"
 import Layout from "../components/layout"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale, Typography } from "../utils/typography"
 import Image from "gatsby-image"
 
 class Portfolio extends React.Component {
@@ -11,18 +11,11 @@ class Portfolio extends React.Component {
     render() {
       const { data } = this.props
       const siteTitle = data.site.siteMetadata.title
-      const hardHat = "https://images.pexels.com/photos/1329061/pexels-photo-1329061.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-      
-      
+
       return (
         <Layout location={this.props.location} title={siteTitle}>
-            <img style={{
-                display: 'flex',
-                alignItems: 'center'
-                }} alt="under construction" src={hardHat}/>
             <MyPortfolio />
         </Layout>
-        
       )
     }
   }
