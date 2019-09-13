@@ -127,7 +127,5 @@ function anagrams(stringA, stringB){
 
 
 <br></br>
-<p align="center">
-  <img width="460" height="300" src="./clueless.gif">
-</p>
+
 I could keep going forever, but I will spare you. Instead I'll tell you to keep in mind that there are countless ways to write code that makes these little string goals work, so get out there into the world and explore. Try writing your own. Compare. Repeat. If you get this type of problem solving ability for free, thank your brain and rejoice. If not, know that it is okay, and the best way to get better at something is to practice! <-- (*me giving myself advice*)<br></br>
