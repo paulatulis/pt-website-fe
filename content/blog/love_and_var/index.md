@@ -10,7 +10,7 @@ So far in my programming journey, I’ve experienced the feeling that I’m extr
   <img width="460" height="300" src="./eng.png">
 </p>
 
-Then, I take a deep breath and tell myself to buck up. And I also remember that there are actually a few great benefits of being a laggard over an early adopter. For example, I’m not clutching on, white-knuckled nor subconsciously, to certain outmoded conventions because I simply don’t know what they are! One of these I’ve experienced recently quite a bit is avoiding the use of **var** in JavaScript code. 
+Then, I take a deep breath and tell myself to buck up. And I also remember that there are actually a few great benefits of being a laggard over an early adopter. For example, I’m neither clutching on white-knuckled nor subconsciously, to certain outmoded conventions because I simply don’t know what they are! One of these I’ve experienced recently quite a bit is avoiding the use of **var** in JavaScript code. 
 
 During boot camp, this was glossed over fairly quickly, but I wanted to know more about var and why some consider it to be a pariah. According to [w3schools.com](https://www.w3schools.com/jsref/jsref_var.asp): 
 > The var statement declares a variable<br></br>
