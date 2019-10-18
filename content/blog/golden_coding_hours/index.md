@@ -54,7 +54,7 @@ For example, if you work on a personal project for two hours and you're writing 
  I prefer to do it in the morning because it sets the stage for a great day, but I’ve also found that really fun things happen at the gym when you have so much aggressive energy because none of your code works. Do what works for you!
 
 #### 3. Taking your show on the road. <br>  
-There are many boons of working from a coffee shop, public library, etc.: 
+Working from a coffee shop, public library, etc. can hold many boons: 
 - It’s a break from the routine and can stimulate creativity
 - Ambient noise and having an “audience” makes you want to get to work
 - If you don’t bring your laptop charger, you only have so much time to complete your tasks
@@ -67,4 +67,4 @@ Of course, this doesn’t even begin to scratch the surface of how best to harne
   <img width="460" height="300" src="./smd.gif">
 </p>
 
-As Robert Frost/S.E. Hinton/Francis Ford Coppola would remind all of us, keep those golden hours gold, ponyboy.
+As Robert Frost/S.E. Hinton/Francis Ford Coppola would remind all of us, keep those golden hours gold, Ponyboy.
